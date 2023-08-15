@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">Drag-n-Drop Plus</div>
+      <div class="navbar-user">User name</div>
+    </nav>
+    <div id="main">
+      <div class="main-container">
+        <!-- <div class="dropped-area" data-draggable="target">
+          <h3>Start</h3>
+        </div> -->
+        <!-- <div class="arrow">&#x2193</div> -->
+        <button id="inc">+</button>
+      </div>
+      <div class="content-container">
+        <form action="">
+          <input type="text" placeholder="Variable name" />
+          <button id="item-inc">Add</button>
+        </form>
+        <br />
+        <li data-draggable="item">Name</li>
+        <li data-draggable="item">Number</li>
+        <li data-draggable="item">Mail</li>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
